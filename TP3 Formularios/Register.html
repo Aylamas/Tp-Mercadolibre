@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-mercado-libre">
+            <img src="./imagen/logo-mercado-liebre.svg" alt="logo de la compania">
+            <h3 class="ingreso"> Comprá en cuotas y sin tarjeta de crédito</h3>
+            
+        </a>
+        <div class="buscador">
+         <label action="search">
+            <input type="search" placeholder="Buscar productos...">
+            
+         </label>
+        </div>
+           <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+            <nav class="nav-links"></nav>
+            <ul class="ul_links">
+                <li class="li_links">
+                    <a href="#" class="link">Ofertas</a>
+                </li>
+                <li class="li_links">
+                    <a href="#" class="link">Vender</a>
+                </li>
+                <li class="li_links">
+                    <a href="#" class="link">Ayuda</a>
+                </li>
+            </ul>
+            <ul class="ul-links">
+                <li class="li_links">
+                    <a href="#" class="link">Creá tu cuenta</a>
+                </li>
+                <li class="li_links">
+                    <a href="#" class="link">Ingresá</a>
+                </li>
+                <li class="li_links">
+                    <a href="#" class="link">Mis compras</a>
+                </li> 
+            </ul>
+                
+        </nav>
+    </header>
+    <main>
+        <section>
+            
+            <form class="form-register" method="get"> 
+                <h1>Registrarse</h1>
+                <section>
+                    <label far="usuario"></label>
+                <input class="controls" type="text" placeholder="Nombre y apellido" name="usuario">
+             <!--<label far="usuario">Usuario</label>-->
+                <input class="controls" type="text" placeholder="Nombre de usuario" name="usuario">
+              <!--<label far="usuario">Mail</label>-->
+                <input class="controls" type="text" placeholder="E- mail" name="usuario">
+                <!--<label far="usuario">Fecha de Nacimiento</label>-->
+                <h1>Fecha de Nacimiento</h1>
+               <input class="controls" type="date" placeholder="" name="usuario" id="">
+                <input class="controls" type="text" placeholder="Domicilio" name="usuario">
+                <h1>Perfil del Usuario</h1>
+               <Form class="form-check">
+                <section>
+                    <input type="radio" name="motivo-contacto" value="Comprador">Comprador
+                    <input type="radio" name="motivo-contacto" value="Vendedor">Vendedor
+                    
+                </Form>
+                </section>
+            
+                <h1>Intereses</h1>
+                <form class="form-check-intereses">
+                    <section>
+                        <input type="checkbox" name="motivo-intereses" value="Electro">Electro
+                        <input type="checkbox" name="motivo-intereses" value="Moda">Moda
+                        <input type="checkbox" name="motivo-intereses" value="Hogar">Hogar
+                        <input type="checkbox" name="motivo-intereses" value="Juguetería">Juguetería
+                        <input type="checkbox" name="motivo-intereses" value="Vida Sana">Vida Sana
+                  </section>
+                    <h1>Foto de Perfil</h1>
+                    <section>
+                        <form>
+                          <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
+                            <input class="controls" type="password" name="contrasena" value="" placeholder="confirmar Contraseña">
+                        </form>
+                    </section>
+                </form>
+
+          <input class="buttons" type="submit" value="Enviar">
+          <input class="buttons" type="submit" value="Borrar todos los datos">
+                
+                </section>
+            </section>
+         </main>  
+
+</body>
+</html>
